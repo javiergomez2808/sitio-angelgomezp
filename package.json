@@ -1,0 +1,19 @@
+{
+  "name": "sitio-angelgomezp",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Sitio personal de Ángel Gómez: páginas web, agenda, finanzas y automatización para pequeños negocios.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "capturas": "node scripts/capturas.mjs",
+    "imagenes": "node scripts/imagenes.mjs"
+  },
+  "devDependencies": {
+    "@fontsource-variable/fraunces": "^5.3.0",
+    "sharp": "^0.35.5",
+    "vite": "^8.3.6"
+  }
+}

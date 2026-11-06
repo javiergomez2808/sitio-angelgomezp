@@ -1,0 +1,248 @@
+{
+  "sitio": {
+    "url": "https://angelgomezp.dev",
+    "nombre": "Ángel Gómez",
+    "iniciales": "AG",
+    "titulo": "Ángel Gómez · Páginas web, agenda y finanzas para negocios en Morelia",
+    "descripcion": "Páginas web con reservas, tableros de finanzas y mensajes automáticos por WhatsApp para spas, barberías y consultorios en Morelia, Michoacán. Prueba la demo en vivo.",
+    "ciudad": "Morelia",
+    "estado": "Michoacán",
+    "pais": "MX",
+    "whatsapp": "524623209589",
+    "whatsappVisible": "462 320 9589",
+    "correo": "javier_gomez2808@hotmail.com",
+    "mensajeWhatsApp": "Hola Ángel, vi tu página y me interesa para mi negocio de ",
+    "imagenCompartir": "/og.png",
+    "colorTema": "#1F6F66"
+  },
+
+  "navegacion": [
+    { "texto": "Demo", "ancla": "demo" },
+    { "texto": "Planes", "ancla": "planes" },
+    { "texto": "Cómo trabajo", "ancla": "proceso" },
+    { "texto": "Preguntas", "ancla": "preguntas" }
+  ],
+
+  "encabezado": {
+    "antetitulo": "Ángel Gómez · Morelia",
+    "titulo": "Agenda, finanzas y automatización para tu negocio",
+    "subtitulo": "Te ayudo a que tus clientes reserven solos, a que nadie olvide su cita y a saber cada semana cuánto gana tu negocio. Sin que tengas que saber de computación.",
+    "botonDemo": "Ver la demo en vivo",
+    "botonWhatsApp": "Escríbeme por WhatsApp",
+    "nota": "Platiquemos sin compromiso. Respondo el mismo día.",
+    "rubroCaptura": "spa",
+    "pantallaCaptura": "agenda"
+  },
+
+  "problemas": {
+    "titulo": "¿Te suena alguno de estos?",
+    "subtitulo": "Son los problemas que más escucho de dueños de spas, barberías y consultorios.",
+    "items": [
+      {
+        "icono": "calendario",
+        "problema": "Citas olvidadas y lugares vacíos",
+        "solucion": "Recordatorios automáticos por WhatsApp un día antes, con confirmación."
+      },
+      {
+        "icono": "grafica",
+        "problema": "No sabes cuánto gana realmente tu negocio",
+        "solucion": "Un tablero que te dice cuánto entró, cuánto salió y qué servicio te deja más."
+      },
+      {
+        "icono": "porcentaje",
+        "problema": "Cobros y comisiones en libretas o en la memoria",
+        "solucion": "Cada cobro queda registrado y las comisiones se calculan solas por quincena."
+      },
+      {
+        "icono": "reloj",
+        "problema": "Horas perdidas en mensajes y tareas repetitivas",
+        "solucion": "Confirmaciones, agradecimientos y promociones que se envían sin que hagas nada."
+      }
+    ]
+  },
+
+  "demo": {
+    "titulo": "Pruébalo tú mismo",
+    "subtitulo": "Es una demo real con datos de ejemplo. Elige tu tipo de negocio y la pantalla que quieres ver.",
+    "urlBase": "https://demo.angelgomezp.dev/",
+    "planInicial": "crecimiento",
+    "botonProbar": "Probar aquí",
+    "botonAbrir": "Abrir demo completa",
+    "aviso": "Los datos son ficticios y lo que cambies solo se guarda en tu celular o computadora.",
+    "pantallas": [
+      { "id": "web", "nombre": "Web pública", "ruta": "#/web", "frase": "Así te encuentran tus clientes y reservan en 1 minuto, sin llamarte." },
+      { "id": "agenda", "nombre": "Agenda", "ruta": "#/agenda", "frase": "Tu día de un vistazo: quién viene, a qué hora y con quién." },
+      { "id": "finanzas", "nombre": "Finanzas", "ruta": "#/finanzas", "frase": "Cuánto entró, cuánto salió y qué servicio te deja más ganancia." },
+      { "id": "mensajes", "nombre": "Mensajes", "ruta": "#/mensajes", "frase": "Recordatorios y promociones que salen solos por WhatsApp." }
+    ],
+    "rubros": [
+      {
+        "slug": "spa",
+        "nombre": "Spa / estética",
+        "icono": "hoja",
+        "descripcion": "Para spas, cabinas de estética y centros de masaje.",
+        "incluye": ["Paquetes de sesiones (por ejemplo, 10 masajes)", "Comisión por terapeuta calculada sola", "Control de insumos y aviso antes de que se acaben"]
+      },
+      {
+        "slug": "barberia",
+        "nombre": "Barbería / salón",
+        "icono": "tijeras",
+        "descripcion": "Para barberías y salones con varios profesionales.",
+        "incluye": ["Fila de turnos con tiempo de espera en vivo", "Propinas por barbero, sin cuentas a mano", "Venta de productos en mostrador"]
+      },
+      {
+        "slug": "consultorio",
+        "nombre": "Consultorio",
+        "icono": "corazon",
+        "descripcion": "Para nutriólogas, fisioterapeutas y consultorios similares.",
+        "incluye": ["Ficha de seguimiento en cada sesión", "Próxima cita sugerida para cada paciente", "Cobro por paquete de consultas"]
+      }
+    ]
+  },
+
+  "planes": {
+    "titulo": "Planes",
+    "subtitulo": "Empieza con lo que necesitas hoy y crece cuando tu negocio lo pida.",
+    "nota": "Precio final según tu negocio. La mensualidad incluye hospedaje, soporte y ajustes menores.",
+    "moneda": "MXN",
+    "botonDemo": "Ver este plan en la demo",
+    "botonWhatsApp": "Me interesa",
+    "mensajeWhatsApp": "Hola Ángel, vi tu página y me interesa el plan {plan} para mi negocio de ",
+    "rubroDemo": "spa",
+    "items": [
+      {
+        "id": "presencia",
+        "nombre": "Presencia",
+        "para": "Para que te encuentren y reserven",
+        "precio": 4500,
+        "mensual": 400,
+        "destacado": false,
+        "incluye": ["Página web con tus servicios y precios", "Reservas en línea las 24 horas", "Agenda por persona", "Recordatorios automáticos por WhatsApp"]
+      },
+      {
+        "id": "control",
+        "nombre": "Control",
+        "para": "Para ordenar clientes y números",
+        "precio": 9000,
+        "mensual": 800,
+        "destacado": true,
+        "etiqueta": "Más popular",
+        "incluye": ["Todo lo de Presencia", "Ficha de cada cliente con su historial", "Tablero de finanzas", "Comisiones por profesional", "Reporte semanal a tu WhatsApp"]
+      },
+      {
+        "id": "crecimiento",
+        "nombre": "Crecimiento",
+        "para": "Para atraer y retener más clientes",
+        "precio": 16000,
+        "mensual": 1500,
+        "destacado": false,
+        "incluye": ["Todo lo de Control", "Agradecimiento y petición de reseña", "Promociones a clientes que dejaron de venir", "Módulos especiales de tu tipo de negocio"]
+      }
+    ],
+    "comparativa": {
+      "titulo": "Compara qué incluye cada plan",
+      "filas": [
+        { "texto": "Página web con reservas en línea", "planes": [true, true, true] },
+        { "texto": "Agenda por persona", "planes": [true, true, true] },
+        { "texto": "Recordatorios por WhatsApp", "planes": [true, true, true] },
+        { "texto": "Ficha de clientes e historial", "planes": [false, true, true] },
+        { "texto": "Tablero de finanzas", "planes": [false, true, true] },
+        { "texto": "Comisiones por profesional", "planes": [false, true, true] },
+        { "texto": "Reporte semanal", "planes": [false, true, true] },
+        { "texto": "Reseñas y promociones automáticas", "planes": [false, false, true] },
+        { "texto": "Módulos de tu tipo de negocio", "planes": [false, false, true] }
+      ]
+    }
+  },
+
+  "caso": {
+    "mostrarNombre": false,
+    "nombreReal": "Nombre del spa",
+    "nombreAnonimo": "Spa en Morelia",
+    "esEjemplo": true,
+    "etiqueta": "Caso real",
+    "titulo": "De la libreta al celular en tres semanas",
+    "antes": {
+      "titulo": "Antes",
+      "texto": "Las citas se apuntaban en una libreta y en WhatsApp. Cada fin de mes la dueña pasaba un fin de semana entero sumando tickets para pagar comisiones, y no sabía qué servicios le dejaban dinero."
+    },
+    "despues": {
+      "titulo": "Después",
+      "texto": "Ahora sus clientas reservan desde el celular, reciben su recordatorio un día antes y ella revisa cada lunes un reporte con lo que entró, lo que salió y lo que debe pagar a cada terapeuta."
+    },
+    "resultados": [
+      { "valor": "−60%", "texto": "citas olvidadas" },
+      { "valor": "15 min", "texto": "para cerrar el mes (antes, 2 días)" },
+      { "valor": "+18%", "texto": "de ganancia al ajustar precios" }
+    ],
+    "cita": {
+      "texto": "Por fin sé cuánto gano cada mes sin estar sumando tickets.",
+      "autor": "Dueña del spa"
+    }
+  },
+
+  "proceso": {
+    "titulo": "Cómo trabajo",
+    "subtitulo": "Sin sorpresas y sin palabras técnicas.",
+    "pasos": [
+      { "titulo": "Llamada de 20 minutos", "texto": "Me cuentas cómo funciona tu negocio y qué te quita más tiempo." },
+      { "titulo": "Propuesta", "texto": "Te mando por escrito qué haremos, cuánto cuesta y en cuánto tiempo." },
+      { "titulo": "Construcción", "texto": "Armo tu sistema y te enseño avances para que lo ajustemos juntos." },
+      { "titulo": "Entrega y soporte", "texto": "Te capacito a ti y a tu equipo, y sigo al pendiente cada mes." }
+    ]
+  },
+
+  "sobreMi": {
+    "titulo": "Sobre mí",
+    "foto": "",
+    "textoFoto": "Tu foto aquí",
+    "parrafo": "Soy Ángel Gómez, desarrollador en Morelia. Me gusta resolver problemas reales de negocios pequeños: que las citas no se pierdan, que los números estén claros y que el dueño recupere su tiempo. Trabajo directo contigo, sin intermediarios y explicando todo en palabras sencillas.",
+    "datos": ["Atiendo en Morelia y en línea", "Trato directo, sin intermediarios", "Respuesta el mismo día"]
+  },
+
+  "preguntas": {
+    "titulo": "Preguntas frecuentes",
+    "items": [
+      {
+        "pregunta": "¿Necesito saber de computación?",
+        "respuesta": "No. Si usas WhatsApp, puedes usar tu sistema. Te enseño a ti y a tu equipo paso a paso, y te dejo una guía corta con capturas."
+      },
+      {
+        "pregunta": "¿Funciona en celular?",
+        "respuesta": "Sí. Todo está pensado primero para el celular: tú lo usas desde tu teléfono y tus clientes reservan desde el suyo. También funciona en computadora y tableta."
+      },
+      {
+        "pregunta": "¿Qué pasa con mis datos?",
+        "respuesta": "Tus datos son tuyos. Se guardan de forma segura, solo tú y tu equipo pueden verlos y, si un día decides irte, te entrego una copia completa."
+      },
+      {
+        "pregunta": "¿Puedo cancelar la mensualidad?",
+        "respuesta": "Sí, cuando quieras y sin penalización. Solo te pido avisar con un mes de anticipación."
+      },
+      {
+        "pregunta": "¿Cuánto tiempo tarda?",
+        "respuesta": "Depende del plan: Presencia suele estar lista en 1 a 2 semanas; Control y Crecimiento, en 3 a 5 semanas."
+      }
+    ]
+  },
+
+  "contacto": {
+    "titulo": "Platiquemos de tu negocio",
+    "subtitulo": "Cuéntame qué tipo de negocio tienes y te respondo el mismo día.",
+    "etiquetaTipos": "Mi negocio es…",
+    "tiposNegocio": [
+      { "texto": "Spa / estética", "frase": "mi spa." },
+      { "texto": "Barbería", "frase": "mi barbería." },
+      { "texto": "Salón de belleza", "frase": "mi salón de belleza." },
+      { "texto": "Consultorio", "frase": "mi consultorio." },
+      { "texto": "Otro", "frase": "" }
+    ],
+    "mensajeConTipo": "Hola Ángel, vi tu página y me interesa para ",
+    "boton": "Escríbeme por WhatsApp",
+    "textoCorreo": "¿Prefieres correo? Escríbeme a"
+  },
+
+  "pie": {
+    "texto": "Ángel Gómez · Desarrollo web y automatización para negocios en Morelia, Michoacán."
+  }
+}
